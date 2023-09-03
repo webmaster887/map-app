@@ -15,7 +15,7 @@ const markerIcon = new Icon({
 function FugroMap() {
     return (
         <div id="map">
-            <MapContainer attributionControl={false} center={utmToLatLong(points[0].easting, points[0].northing)} zoom={7} scrollWheelZoom={true}>
+            <MapContainer attributionControl={false} center={utmToLatLong(points[0].easting, points[0].northing)} zoom={7} maxZoom={18} scrollWheelZoom={true}>
                 <LayersControl >
                     <LayersControl.BaseLayer checked name="Map View">
                         <TileLayer
@@ -36,7 +36,7 @@ function FugroMap() {
                                     <h4>{point.name}</h4>
                                     <b>Easting</b>: {point.easting}<br />
                                     <b>Northing</b>: {point.northing} <br />
-                                    <b>Depth</b>: {point.depth}m<br />
+                                    <b>Depth</b>: {point.depth} m<br />
                                     <b>Layer Amount</b>: {point.amount}
                                 </Popup>
                             </Marker>
