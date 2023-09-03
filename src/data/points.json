@@ -1,0 +1,42 @@
+[
+    {
+        "name": "1A",
+        "easting": 164465.645,
+        "northing": 197713.476,
+        "depth": 5,
+        "amount": 3,
+        "zone": null
+    },
+    {
+        "name": "2B",
+        "easting": 161313.227,
+        "northing": 198240.94,
+        "depth": 6,
+        "amount": 6,
+        "zone": null
+    },
+    {
+        "name": "3C",
+        "easting": 372072,
+        "northing": 166621,
+        "depth": 21,
+        "amount": 1,
+        "zone": null
+    },
+    {
+        "name": "4D",
+        "easting": 395391,
+        "northing": 121794,
+        "depth": 3.23,
+        "amount": 10,
+        "zone": null
+    },
+    {
+        "name": "5E",
+        "easting": 120000,
+        "northing": 160000,
+        "depth": 4,
+        "amount": 3,
+        "zone": null
+    }
+]
