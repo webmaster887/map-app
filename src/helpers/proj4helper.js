@@ -4,7 +4,7 @@ import proj4 from 'proj4';
  * @param {number} easting 
  * @param {number} northing 
  * @param {string} zone
- * @returns [Latitude, Longitude]
+ * @returns {Array} [Latitude, Longitude]
  */
 export function utmToLatLong(easting, northing, zone = '40') {
     const utmProjection = `+proj=utm +zone=${zone} +ellps=WGS84 +datum=WGS84 +units=m +no_defs`;
